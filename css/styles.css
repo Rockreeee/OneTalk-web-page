@@ -3031,14 +3031,14 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: rgb(85, 137, 133);
-  border-color: rgb(85, 137, 133);
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: rgb(115, 167, 163);
-  border-color: rgb(115, 167, 163);
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -7783,7 +7783,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .text-reset {
@@ -11395,25 +11395,25 @@ hr.divider-heavy {
 
 .space {
   height: 100px;
-  background-color: rgba(31, 33, 36, 1);
+  background-color: rgba(0, 199, 190, 1);
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0) 0%, rgba(92, 77, 66, 0) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0) 0%, rgba(92, 77, 66, 0) 100%), url("../assets/img/portfolio/thumbnails/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
-  background-color: rgba(31, 33, 36, 1);
+  background-color: rgba(0, 199, 190, 1);
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 50vh;
+    height: 60vh;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
@@ -11431,11 +11431,11 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .download {
-  background-color: rgba(31, 33, 36, 1);
+  background: linear-gradient(rgba(0, 199, 190, 1), rgba(255, 255, 255, 1))
 }
 
 .explanation {
-  background: linear-gradient(rgba(31, 33, 36, 1), rgba(52, 71, 85, 1));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 199, 190, 1))
 }
 
 #portfolio {
@@ -11443,7 +11443,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .agreement {
-  background: linear-gradient(rgba(213, 209, 204, 1), rgba(255, 255, 255, 1));
+  background: linear-gradient(rgba(0, 199, 190, 1), rgba(255, 255, 255, 1));
   font-size: 0.7rem;
 }
 
