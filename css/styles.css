@@ -11395,18 +11395,18 @@ hr.divider-heavy {
 
 .space {
   height: 100px;
-  background-color: rgba(0, 199, 190, 1);
+  background-color: rgba(0, 0, 50, 1);
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0) 0%, rgba(92, 77, 66, 0) 100%), url("../assets/img/portfolio/thumbnails/1.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0) 0%, rgba(0, 0, 66, 0) 100%), url("../assets/img/portfolio/thumbnails/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
-  background-color: rgba(0, 199, 190, 1);
+  background-color: rgba(0, 0, 30, 1);
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
@@ -11431,11 +11431,11 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .download {
-  background: linear-gradient(rgba(0, 199, 190, 1), rgba(255, 255, 255, 1))
+  background: linear-gradient(rgba(0, 0, 30, 1), rgba(255, 255, 255, 1))
 }
 
 .explanation {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 199, 190, 1))
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 50, 1))
 }
 
 #portfolio {
@@ -11443,7 +11443,7 @@ header.masthead h1, header.masthead .h1 {
 }
 
 .agreement {
-  background: linear-gradient(rgba(0, 199, 190, 1), rgba(255, 255, 255, 1));
+  background: linear-gradient(rgba(0, 0, 50, 1), rgba(255, 255, 255, 1));
   font-size: 0.7rem;
 }
 
